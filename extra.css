@@ -1,0 +1,55 @@
+body {
+    background-image: url("assets/background2.jpg");
+}
+
+h1 {
+    font-family: "Papyrus";
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    color: greenyellow;
+}
+
+p {
+    font-family: "Papyrus";
+    font-size: 20px;
+}
+
+a {
+    color: greenyellow;
+    text-shadow: 5px 5px 7px blue;
+}
+
+a:hover {
+    color: green;
+    text-shadow: 5px 5px 7px purple;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black; 
+}
+
+iframe {
+    height:600px;
+    width: 90%;
+}
+
+.video_container {
+    text-align: center;
+}
+
+.list_container {
+    background-image: linear-gradient(to bottom right, orangered, greenyellow);
+    text-shadow: 5px 5px 7px blueviolet;
+}
+
+.suika_container {
+    text-align: center;
+}

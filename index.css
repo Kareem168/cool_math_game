@@ -1,0 +1,63 @@
+body {
+    background-image: url("assets/background1.jpg");
+}
+
+h1 {
+   font-family: "Papyrus";
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+   color: red;
+   text-shadow: 5px 5px 7px darkred;
+}
+
+h2 {
+    font-family: "Papyrus";
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    color: yellow;
+    text-shadow: 5px 5px 7px blueviolet;
+}
+
+p {
+    font-family: "Papyrus";
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+}
+
+a {
+    color: orangered;  
+}
+
+a:hover {
+    color: pink;
+}
+
+input {
+    font-family: "Papyrus";
+    font-size: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+button {
+    font-family: "Papyrus";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: center;
+    color: blue;
+    background-color: green;
+}
+
+.button_container {
+    text-align: center;
+}
+
+.info_container {
+    background-image: linear-gradient(to bottom right, purple, blue);
+    text-shadow: 5px 5px 7px green;
+    text-align: center;
+}

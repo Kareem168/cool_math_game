@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Author: Kareem Fahmi -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial" />
+        <title>MATH GAME</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body onload="generateQuestion()">
+        <h1>Cool Math Game</h1>
+        <h2 id="question"></h2>
+        <div class="button_container">
+            <input id="answer_input" type="text"><p></p>
+            <button id="check_button" onclick="checkAnswer()">Check Answer</button>
+            <button id="new_button" onclick="generateQuestion()">New Question</button>
+            <p id="check_text">Go ahead.</p>
+        </div>
+        <div class="info_container">
+            <p>
+                Welcome to cool math game!<br />
+                For more information, click 
+                <a href="extra.html">here</a>!
+            </p>
+            <img src="assets/image1.jpg" alt="here lies the thinker">
+        </div>
+        
+    </body>
+</html>
